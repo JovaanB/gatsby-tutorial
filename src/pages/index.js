@@ -1,3 +1,12 @@
-import React from "react"
+import React from "react";
+import Layout from "../components/layout";
+import { Button } from "../components/button";
 
-export default () => <div>Hello world!</div>
+export default () => (
+  <Layout>
+    <h1 className="title">This is our home page!</h1>
+    <h1 className="title">Another heading</h1>
+    Hello world!
+    <Button>Styled Button</Button>
+  </Layout>
+);

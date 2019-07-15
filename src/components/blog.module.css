@@ -1,0 +1,9 @@
+.title {
+  color: purple;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.blog h2 {
+  text-transform: capitalize;
+}
