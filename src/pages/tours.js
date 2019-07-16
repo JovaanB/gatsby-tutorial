@@ -14,7 +14,7 @@ const tours = ({ data }) => {
 
 export const getTours = graphql`
   query {
-    tours: allContentfulTourExample {
+    tours: allContentfulTour {
       edges {
         node {
           name
